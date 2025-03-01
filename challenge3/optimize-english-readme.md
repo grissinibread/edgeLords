@@ -1,6 +1,6 @@
 Speakhard to Speakeasy
 
-	You've recently been hired by a company run by defrosted cavemen from The Paleolithic era. They're quite upset with the state of language currently, the CEO, Crug Grood, is aways saying, "why many word? Less word make easy", while swinging his club with fervor. To make his life easier, create an optimized version of English translator, cutting as much as you deem reasonable from the language while still maintaining the meaning of the sentence. Use the following sentences often heard around the office to optimize.
+You've recently been hired by a company run by defrosted cavemen from The Paleolithic era. They're quite upset with the state of language currently, the CEO, Crug Grood, is aways saying, "why many word? Less word make easy", while swinging his club with fervor. To make his life easier, create an optimized version of English translator, cutting as much as you deem reasonable from the language while still maintaining the meaning of the sentence. Use the following sentences often heard around the office to optimize.
 
 [BUSINESS SOUNDING SENTENCES HERE]
 
