@@ -9,16 +9,18 @@ To make his life easier, create a translator to optimize English, cutting as muc
 #### Social Interactions:
 **"Allen has mistaken me for his friend Marcus Halberstam. It seems logical because Marcus also works at P&P and in fact does the same exact thing I do and he also has a penchant for Valentino suits and Oliver Peoples glasses. Marcus and I even go to the same barber, although I have a slightly better haircut."**
 
-### Sales Pitches
+#### Sales Pitches
 **"As you all know, first prize is a Cadillac Eldorado. Anybody wanna see second prize? Second prize's a set of steak knives. Third prize is you're fired."**
 
-### Budget Talks
+#### Budget Talks
 **"The good news is Vinnie, you're not going to care cause you're gonna make so much money. That's what I get out of it. Wanna know what you get out of it? You get the ice cream, the hot fudge, the banana and the nuts. Right now I get the sprinkles, and you- if this goes through, I get the cherry. But you get the sundae, Vinny. You get the sundae."**
 
-## Legal Troubles
+#### Legal Troubles
 **"And I'll bet what you hated the most was that they identified me as a co-founder of Facebook, which I am. You better lawyer up asshole, because I'm not coming back for 30%, I'm coming back for everything."**
 
 The rules are a bit looser for this challenge; just use your best judgement to make sure Crug Grood understands the above inputs and optimize them as efficiently as possible. There is no one correct answer for either input!
+
+---
 
 Here's an example with a different input:
 
