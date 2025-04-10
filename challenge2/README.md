@@ -22,6 +22,8 @@ Where k is an odd number, p is a prime, and n is some integer. For example:
 
 And so on until infinity. We have a sneaking suspicion this might be false and we need you to prove it through contradiction!
 
+## Your Task
+
 Create an algorithm to find as many odd numbers as possible to disprove the above expression. The more numbers you find, the better your score will be!
 
 **Please submit the numbers you believe to contradict this conjecture in a .txt file, see `example.txt` for general formatting.**
