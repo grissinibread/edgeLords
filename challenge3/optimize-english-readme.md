@@ -18,6 +18,9 @@ To make his life easier, create a translator to optimize English, cutting as muc
 #### Legal Troubles
 **"And I'll bet what you hated the most was that they identified me as a co-founder of Facebook, which I am. You better lawyer up asshole, because I'm not coming back for 30%, I'm coming back for everything."**
 
+#### Fatherly Advice
+**"Because the man who makes an appearance in the business world, the man who creates personal interest, is the man who gets ahead. Be liked and you will never want. I never have to wait in line to see a buyer."**
+
 The rules are a bit looser for this challenge; just use your best judgement to make sure Crug Grood understands the above inputs and optimize them as efficiently as possible. There is no one correct answer for either input!
 
 ---
