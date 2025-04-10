@@ -11,7 +11,7 @@ When grading submissions, we'll be looking for these four main things: efficienc
 
 3. Refer to formatting files (if included) to print your outputs
 
-4. Submissions must include a writeup of the challenge of at least 100 words describing your process, decisions, and collaborations.
+4. Submissions must include a writeup of the challenge of at least 100 words describing your process, decisions, and collaborations. Submit [here](https://forms.office.com/r/EpznHcui5b).
 
 5. Any additional questions please email **rodri1582@csusm.edu**, **avdey001@csusm.edu**, **acm.csu.san.marcos@gmail.com**
 
