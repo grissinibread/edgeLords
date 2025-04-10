@@ -1,22 +1,18 @@
-def conversion(roman):
+def romanToNumeral(roman):
     total = 0
 
-    for var in roman:
-        if var == 'M':
-            total += 1000
-        elif var == 'D':
-            total += 500
-        elif var == 'C':
-            total += 100
-        elif var == 'L':
-            total += 50
-        elif var == 'X':
-            total += 10
-        elif var == 'V':
-            total += 5
-        elif var == 'I':
-            total += 1
-
-    print(total)
-
-conversion("IX")
+def converstion(char):
+        if char == 'M':
+            return 1000
+        elif char == 'D':
+            return 500
+        elif char == 'C':
+            return 100
+        elif char == 'L':
+            return 50
+        elif char == 'X':
+            return 10
+        elif char == 'V':
+            return 5
+        elif char == 'I':
+            return 1
