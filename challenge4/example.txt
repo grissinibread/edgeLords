@@ -1,0 +1,6 @@
+total distance: 7405.14 feet
+
+Paths:
+    Science_hall_1_top to science_hall_1_bottom: 46.86 feet
+    science_hall_1_bottom to academic_hall_stairs_second_floor: 15 feet
+    
