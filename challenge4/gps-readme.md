@@ -20,6 +20,7 @@ Find the **shortest** path between each building that allows you to make it to y
 
 ## Formatting and Outputs
 
+Collect information to create your shortest path by any means you see fit, try to get accurate information. Your code should output the total distance of your shortest path and print all nodes that are part of the path in order with their distances in meters. Please submit the information in a .txt file, see `example.txt` for an example output.
 
 ## Additional map
 
