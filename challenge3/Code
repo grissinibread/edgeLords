@@ -1,0 +1,39 @@
+def delete(input, keys):
+    delWords = set(kw.lower() for kw in keys)
+    #make all words lowercase so everything is the same in the eyes of the algorithm(no worrying about Capital letters)
+    return ' '.join(word for word in input.split() if word.lower() not in delWords)
+    #splits the words in sentences to check for the needed deleted keys and takes them out, then puts sentence back together
+
+def replace(input, fancy):
+    words = input.split() #splits the sentence into singular words
+    changed = [fancyWords.get(word.lower(), word) for word in words] #checks if word is a word shown in dictinary fancyWords, if yes, change it
+    return ' '.join(changed) #returns new sentence
+
+keys = ["are", "have", "will", "was", "has", "his", "it", "if", "also", "in", "fact", "the", "exact", "also", "a", "even", "although", "slightly", "&", "Peoples", "for", "to", "as", "anybody", "is", "so", "out", "of", "right", "but"]
+fancyWords = {"appearance" : "showing", "an" : "a", "personal" : "inside", "coming" : "come", "i'm" : "me", "lawyer" : "beef", "identified" : "saw", "hated" : "hate", "i'll" : "me", "penchant" : "likes", "valentino" : "nice", "oliver" : "shiny", "because" : "cause", "mistaken" : "confuse", "logical" : "smart", "i" : "me", "you're" : "you", "wanna" : "want"}
+#keys are the unneccesary words that need to be deleted in each sentence
+#fancyWords are the words that need to be dumbed down, and their counterpart dumbed versions
+
+inputs = "Allen has mistaken me for his friend Marcus Halberstam. It seems logical because Marcus also works at P&P and in fact does the same exact thing I do and he also has a penchant for Valentino suits and Oliver Peoples glasses. Marcus and I even go to the same barber, although I have a slightly better haircut."
+inputs2 = "As you all know, first prize is a Cadillac Eldorado. Anybody wanna see second prize? Second prize's a set of steak knives. Third prize is you're fired."
+inputs3 = "The good news is Vinnie, you're not going to care cause you're gonna make so much money. That's what I get out of it. Wanna know what you get out of it? You get the ice cream, the hot fudge, the banana and the nuts. Right now I get the sprinkles, and you- if this goes through, I get the cherry. But you get the sundae, Vinny. You get the sundae."
+inputs4 = "And I'll bet what you hated the most was that they identified me as a co-founder of Facebook, which I am. You better lawyer up asshole, because I'm not coming back for 30%, I'm coming back for everything."
+inputs5 = "Because the man who makes an appearance in the business world, the man who creates personal interest, is the man who gets ahead. Be liked and you will never want. I never have to wait in line to see a buyer."
+#the test cases given by the gamemakers
+
+testInput = "The group we made is made up of Johnny, Adria, and Alejandro. We are super cool and good at being a team!"
+#personal test case to show a new input in the algorithm
+
+output = delete(inputs4, keys)
+output = replace(output, fancyWords)
+print(output)
+#testing the functions, to change the input, change the first parameter of the delete function, and thats it
+
+#Explanation:
+#Going into this problem, my first thought was to obviously find a way to make the fancy words dumbed down enough to
+#where its still understandable, and that's what the dictionary does, to assign a unique key to a given key.
+#So I went through the test cases and did my best to take all the "fancy" words and made them dumb to make it easier to read.
+#After, I did the same thing and went through the sentences again to find common words that are unnecessary, like 'a', 'the'
+#things like that. Making the functions, I needed to figure out the python methods to split a string to find certain words, and from there
+#make different dictionaries and arrays of strings to show the function what to look for when scanning through the sentences.
+#After that it was just a matter of finding more fancy words and deleting the occasional unnecessary word.
